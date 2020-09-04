@@ -1,7 +1,7 @@
 ---
 name: New manifest request
 about: Request new manifest to be added into this bucket.
-title: '[Request] Add %%applicationName%%'
+title: '[Request] Add <Application name>'
 labels: request, help wanted
 ---
 
