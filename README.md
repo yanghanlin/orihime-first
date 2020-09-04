@@ -1,6 +1,6 @@
 # Orihime 1
 
-![AppVeyor Build Status](https://ci.appveyor.com/api/projects/status/gws56jqak0ns1iby?svg=true)
+[![AppVeyor Build Status](https://ci.appveyor.com/api/projects/status/gws56jqak0ns1iby?svg=true)](https://ci.appveyor.com/project/YangHanlin/OrihimeFirst) [![Excavator Status](https://github.com/YangHanlin/OrihimeFirst/workflows/Excavator/badge.svg)](https://github.com/YangHanlin/OrihimeFirst/actions?query=workflow%3AExcavator)
 
 A Scoop bucket that contains some personal programs.
 
