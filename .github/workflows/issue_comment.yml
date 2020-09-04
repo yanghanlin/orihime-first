@@ -9,8 +9,8 @@ jobs:
     steps:
     - uses: actions/checkout@main
     - name: Pull Request Validation
-      uses: Ash258/Scoop-GithubActions@stable
+      uses: Ash258/Scoop-GithubActions@stable-win
       if: startsWith(github.event.comment.body, '/verify')
       env:
-        GITH_EMAIL: youremail@email.com
+        GITH_EMAIL: mattoncis@hotmail.com
         GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}

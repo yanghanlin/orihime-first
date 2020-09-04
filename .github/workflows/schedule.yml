@@ -1,6 +1,6 @@
 on:
   schedule:
-  - cron: '0 * * * *'
+  - cron: '0 16 * * *'  # equivalent to '0 0 * * *' CST
 name: Excavator
 jobs:
   excavate:
@@ -9,8 +9,8 @@ jobs:
     steps:
     - uses: actions/checkout@main
     - name: Excavate
-      uses: Ash258/Scoop-GithubActions@stable
+      uses: Ash258/Scoop-GithubActions@stable-win
       env:
-        GITH_EMAIL: youremail@email.com
+        GITH_EMAIL: mattoncis@hotmail.com
         GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
         SKIP_UPDATED: '1'
