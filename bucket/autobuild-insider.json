@@ -10,6 +10,7 @@
         "For a more stable version, try out the 'autobuild' application in this bucket."
     ],
     "url": "https://github.com/YangHanlin/autobuild/archive/f13fe8692fed82abaf07093477bf46bfaa2b9a63.zip",
+    "hash": "sha1:e5ecdc0f49640aac70f77833a46fa72388f04aa9",
     "extract_dir": "autobuild-f13fe8692fed82abaf07093477bf46bfaa2b9a63",
     "bin": "autobuild.py",
     "checkver": {
