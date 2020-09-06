@@ -1,5 +1,5 @@
 {
-    "version": "f13fe8692fed82abaf07093477bf46bfaa2b9a63",
+    "version": "bdbbfc5c22a2eb1195ced49db1c105d852afae06",
     "description": "A simple cross-platform build script for C++.",
     "homepage": "https://github.com/YangHanlin/autobuild",
     "license": {
@@ -9,9 +9,9 @@
         "This is the insider version which is directly derived from master branch and may contain painful bugs.",
         "For a more stable version, try out the 'autobuild' application in this bucket."
     ],
-    "url": "https://github.com/YangHanlin/autobuild/archive/f13fe8692fed82abaf07093477bf46bfaa2b9a63.zip",
-    "hash": "sha1:e5ecdc0f49640aac70f77833a46fa72388f04aa9",
-    "extract_dir": "autobuild-f13fe8692fed82abaf07093477bf46bfaa2b9a63",
+    "url": "https://github.com/YangHanlin/autobuild/archive/bdbbfc5c22a2eb1195ced49db1c105d852afae06.zip",
+    "hash": "2c772471c4219a5a2da32d450312dc159273d26207fdf74514496494494f7c43",
+    "extract_dir": "autobuild-bdbbfc5c22a2eb1195ced49db1c105d852afae06",
     "bin": "autobuild.py",
     "checkver": {
         "url": "https://api.github.com/repos/YangHanlin/autobuild/commits/master",
