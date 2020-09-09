@@ -7,20 +7,19 @@
     },
     "notes": [
         "This is the insider version which is directly derived from master branch and may contain ",
-        "painful bugs. For a more stable version, try out the 'autobuild' application in this bucket.",
-        "Do NOT use 'scoop update' to update this application (it may fail as the versions are not ",
-        "ascending); manually uninstall and install to get the latest version."
+        "painful bugs. For a more stable version, try out the 'autobuild' application in this bucket."
     ],
     "url": "https://github.com/YangHanlin/autobuild/archive/bdbbfc5c22a2eb1195ced49db1c105d852afae06.zip",
     "hash": "2c772471c4219a5a2da32d450312dc159273d26207fdf74514496494494f7c43",
     "extract_dir": "autobuild-bdbbfc5c22a2eb1195ced49db1c105d852afae06",
     "bin": "autobuild.py",
     "checkver": {
-        "url": "https://api.github.com/repos/YangHanlin/autobuild/commits/master",
-        "jsonpath": "$.sha"
+        "url": "https://github.com/YangHanlin/autobuild/commits/master.atom",
+        "regex": "(?s)>(?<year>\\d+)-(?<month>\\d+)-(?<day>\\d+)T(?<hour>\\d+):(?<minute>\\d+):(?<second>\\d+).*?/(?<sha>[0-9a-f]{40})",
+        "replace": "$matchYear$matchMonth$matchDay$matchHour$matchMinute$matchSecond"
     },
     "autoupdate": {
-        "url": "https://github.com/YangHanlin/autobuild/archive/$version.zip",
-        "extract_dir": "autobuild-$version"
+        "url": "https://github.com/YangHanlin/autobuild/archive/$matchSha.zip",
+        "extract_dir": "autobuild-$matchSha"
     }
 }
