@@ -6,8 +6,10 @@
         "identifier": "GPL-3.0-or-later"
     },
     "notes": [
-        "This is the insider version which is directly derived from master branch and may contain painful bugs.",
-        "For a more stable version, try out the 'autobuild' application in this bucket."
+        "This is the insider version which is directly derived from master branch and may contain ",
+        "painful bugs. For a more stable version, try out the 'autobuild' application in this bucket.",
+        "Do NOT use 'scoop update' to update this application (it may fail as the versions are not ",
+        "ascending); manually uninstall and install to get the latest version."
     ],
     "url": "https://github.com/YangHanlin/autobuild/archive/f13fe8692fed82abaf07093477bf46bfaa2b9a63.zip",
     "hash": "sha1:e5ecdc0f49640aac70f77833a46fa72388f04aa9",
