@@ -1,5 +1,5 @@
 {
-    "version": "bdbbfc5c22a2eb1195ced49db1c105d852afae06",
+    "version": "20200904143916",
     "description": "A simple cross-platform build script for C++.",
     "homepage": "https://github.com/YangHanlin/autobuild",
     "license": {
@@ -16,7 +16,7 @@
     "checkver": {
         "url": "https://github.com/YangHanlin/autobuild/commits/master.atom",
         "regex": "(?s)>(?<year>\\d+)-(?<month>\\d+)-(?<day>\\d+)T(?<hour>\\d+):(?<minute>\\d+):(?<second>\\d+).*?/(?<sha>[0-9a-f]{40})",
-        "replace": "$matchYear$matchMonth$matchDay$matchHour$matchMinute$matchSecond"
+        "replace": "${year}${month}${day}${hour}${minute}${second}"
     },
     "autoupdate": {
         "url": "https://github.com/YangHanlin/autobuild/archive/$matchSha.zip",
