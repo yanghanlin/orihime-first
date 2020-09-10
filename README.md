@@ -4,7 +4,7 @@
 
 A Scoop bucket that contains some personal applications.
 
-> In the [*Toaru* Series](https://en.wikipedia.org/wiki/A_Certain_Magical_Index), Orihime 1 is a satellite carrying the super computer [Tree Diagram](https://toarumajutsunoindex.fandom.com/wiki/Tree_Diagram), empowering the whole [Academy City](https://toarumajutsunoindex.fandom.com/wiki/Academy_City) as well as students and faculty in it.
+> In the [*Toaru* Series](https://toarumajutsunoindex.fandom.com/wiki/Toaru_Majutsu_no_Index_(light_novel)), Orihime 1 is a satellite carrying the super computer [Tree Diagram](https://toarumajutsunoindex.fandom.com/wiki/Tree_Diagram), empowering the whole [Academy City](https://toarumajutsunoindex.fandom.com/wiki/Academy_City) as well as students and faculty in it.
 
 ## Usage
 
