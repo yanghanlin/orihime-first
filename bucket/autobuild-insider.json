@@ -1,5 +1,5 @@
 {
-    "version": "20200909172940",
+    "version": "0.20200909172940",
     "description": "A simple cross-platform build script for C++.",
     "homepage": "https://github.com/YangHanlin/autobuild",
     "license": {
