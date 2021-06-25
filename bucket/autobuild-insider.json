@@ -16,7 +16,7 @@
     "checkver": {
         "url": "https://github.com/YangHanlin/autobuild/commits/master.atom",
         "regex": "(?s)>(?<year>\\d+)-(?<month>\\d+)-(?<day>\\d+)T(?<hour>\\d+):(?<minute>\\d+):(?<second>\\d+).*?/(?<sha>[0-9a-f]{40})",
-        "replace": "${year}${month}${day}${hour}${minute}${second}"
+        "replace": "0.${year}${month}${day}${hour}${minute}${second}"
     },
     "autoupdate": {
         "url": "https://github.com/YangHanlin/autobuild/archive/$matchSha.zip",
