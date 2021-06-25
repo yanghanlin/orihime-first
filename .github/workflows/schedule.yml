@@ -1,6 +1,7 @@
 on:
   schedule:
   - cron: '30 17 * * *'  # equivalent to '30 1 * * *' CST
+  workflow_dispatch:
 name: Excavator
 jobs:
   excavate:
