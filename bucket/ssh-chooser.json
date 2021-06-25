@@ -1,5 +1,5 @@
 {
-    "version": "20201214045624",
+    "version": "0.20201214045624",
     "description": "A simple script to extract hosts from configuration file and produce a navigation page.",
     "homepage": "https://gist.github.com/YangHanlin/e591d062ffa53c6f57a954d18727c19e",
     "license": "MIT",
