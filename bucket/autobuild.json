@@ -14,6 +14,9 @@
     "hash": "2765beccced4bc2e4147d75b09f00b3977eff302a4024e3307504d1824570698",
     "extract_dir": "autobuild-df3528abea921e875f4d05dbc9a93ddef2892041",
     "bin": "autobuild.py",
+    "suggest": {
+        "Python": "python"
+    },
     "checkver": {
         "url": "https://github.com/YangHanlin/autobuild/commits/master.atom",
         "regex": "(?s)>(?<year>\\d+)-(?<month>\\d+)-(?<day>\\d+)T(?<hour>\\d+):(?<minute>\\d+):(?<second>\\d+).*?/(?<sha>[0-9a-f]{40})",
