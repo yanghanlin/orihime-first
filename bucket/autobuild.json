@@ -6,8 +6,9 @@
         "identifier": "GPL-3.0-or-later"
     },
     "notes": [
-        "This is the insider version which is directly derived from master branch and may contain",
-        "painful bugs. For a more stable version, try out the 'autobuild' application in this bucket."
+        "This is actually the same as 'autobuild-insider' in this bucket as no stable version is available",
+        "as of now; stick with this application if you like to receive updates to stable versions once",
+        "they are available."
     ],
     "url": "https://github.com/YangHanlin/autobuild/archive/df3528abea921e875f4d05dbc9a93ddef2892041.zip",
     "hash": "2765beccced4bc2e4147d75b09f00b3977eff302a4024e3307504d1824570698",
