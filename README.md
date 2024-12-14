@@ -1,6 +1,6 @@
 # Orihime 1
 
-[![AppVeyor Build Status](https://ci.appveyor.com/api/projects/status/gws56jqak0ns1iby?svg=true)](https://ci.appveyor.com/project/YangHanlin/OrihimeFirst) [![Excavator Status](https://github.com/YangHanlin/OrihimeFirst/workflows/Excavator/badge.svg)](https://github.com/YangHanlin/OrihimeFirst/actions?query=workflow%3AExcavator)
+[![Test status](https://github.com/yanghanlin/orihime-first/actions/workflows/ci.yml/badge.svg)](https://github.com/yanghanlin/orihime-first/actions/workflows/ci.yml) [![Excavator status](https://github.com/yanghanlin/orihime-first/actions/workflows/excavator.yml/badge.svg)](https://github.com/yanghanlin/orihime-first/actions/workflows/excavator.yml)
 
 A Scoop bucket that contains some personal applications.
 
@@ -11,10 +11,10 @@ A Scoop bucket that contains some personal applications.
 Add this bucket to Scoop:
 
 ```powershell
-scoop bucket add orihime https://github.com/YangHanlin/OrihimeFirst
+scoop bucket add orihime https://github.com/yanghanlin/orihime-first
 ```
 
-[Here](bucket) is a list of programs contained in this bucket.
+[Here](bucket) is a list of applications contained in this bucket.
 
 ## License
 
@@ -22,4 +22,4 @@ Licensed under [MIT](LICENSE).
 
 ## Thanks
 
-Thanks to [Ash258/GenericBucket](https://github.com/Ash258/GenericBucket) for providing a helpful base to build a generic Scoop bucket on top of.
+Thanks to [Ash258/GenericBucket](https://github.com/Ash258/GenericBucket) and [ScoopInstaller/BucketTemplate](https://github.com/ScoopInstaller/BucketTemplate) for providing templates of Scoop buckets.
